@@ -1,0 +1,9 @@
+body {
+   display: flex;
+}
+post {
+    display: flex;
+    size: 400px;
+    justify-content: center;
+    align-items: center;
+}
