@@ -1,9 +1,114 @@
 body {
-   display: flex;
+   display: flex;   
+   width: max-content;
+   height: max-content;
+   background-color: black;
+   font-family: 'Roboto', sans-serif;
+   position: relative;
 }
-post {
+.post {
     display: flex;
-    size: 400px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    Width: 540px;
+    height: 880px;
+    background-color: white;
+    position: absolute;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 5px;
+    Height: 200px;
+    width: 540px;
+}
+.left_Header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 7px;
+    padding-top: 7px;
+}
+.profile_Photo {
+    width: 100px;
+    height: 100px;
+    padding-right: 5px;
+}
+.profile_Name {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-size: 60px;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.right_header {
+    position: relative;
+    padding-right: 12px;
+    padding-top: 9px;
+    font-size: 60px;
+    align-items: center;
+}
+.post_Image {
+    display: flex;
+    position: relative;
+    width: 540px;
+    height: 540px;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+img + .post_Image {
+    height: 540px;
+    width: 540px;
+    position: relative;
+}
+.post_Body {
+    display: inline-block;
+    Position: relative;
+    height: 400px;
+    width: 540px;
+}
+.icons {
+    display: flex;
+    float: left;
+    margin: 10px;
+    height: 50px;
+    width: 280px;
+    position: relative;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.bookmark {
+    display: flex;
+    float: right;
+    position: relative;
+    margin: 10px;
+    height: 50px;
+    width: 200px;
+    flex-direction: row-reverse;
+    font-size: 40px;
+    padding-right: 15px;
+}
+.like {
+    display: flex;
+    height: 20px;
+    width: 540px;
+    position: relative;
+    font-weight: 300;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+.comment {
+    display: flex;
+    height: 300px;
+    width: 530px;
+    position: absolute;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
